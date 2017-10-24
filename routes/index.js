@@ -10,4 +10,8 @@ router.get('/doit', function(req, res, next) {
     res.render('doit', { title: 'Do it' });
 });
 
+router.get('/doit2', function(req, res, next) {
+    res.render('doit2', { title: 'Do it some more' });
+});
+
 module.exports = router;
